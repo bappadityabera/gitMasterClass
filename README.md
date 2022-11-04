@@ -79,7 +79,7 @@ git master class
 
 ### git command to create a new branch
 
-> git branch <branch-name>
+> git branch yourBranchName
 
 ### git command to create a new branch and switch to it
 
