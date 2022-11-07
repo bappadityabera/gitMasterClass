@@ -88,3 +88,14 @@ git master class
 ### git command to see the changes in the file
 
 > git diff
+
+
+## Generating SSH key with and setting up
+> $ ssh-keygen -t rsa -b 4096 -C "you@example.com"
+##### -> Generating public/private rsa key pair.
+>config file 
+>Host *
+IgnoreUnknown AddKeysToAgent,UseKeychain
+AddKeysToAgent yes
+UseKeychain yes
+IdentityFile ~/.ssh/rsa_ssh(rsa_ssh is the file name where you stored)
